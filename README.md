@@ -11,6 +11,8 @@ Automação que coleta os chamados e analisa a eficiência do atendimento ao cli
 
 -> API Jira: Ira ser a ponte de comunicação entre o python e o jira
 
+-> Link para a documentação da API: https://developer.atlassian.com/cloud/jira/platform/rest/v3/intro/#expansion
+
 # O que o python faz:
 
 -> Consome os dados da API Rest do Jira
@@ -19,12 +21,15 @@ Automação que coleta os chamados e analisa a eficiência do atendimento ao cli
 
 -> Ira tratar e higienizar os dados retornados pela API
 
+-> Ira gerar um log de erros caso ocorra algum erro na execução
+
 -> Ira criar uma pasta que contera as planilhas de informações de cada
 análise
 
 -> Ira gerar as planilhas que irão alimentar o PowerBI
 
 -> Classifica entre "SLA Cumprido", "SLA em Risco" e "SLA Estourado"
+
 
 
 # O que o PowerBI faz: 
