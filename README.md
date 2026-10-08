@@ -13,7 +13,7 @@ Automação que coleta os chamados e analisa a eficiência do atendimento ao cli
 
 # O que o python faz:
 
--> Consome os dados da API do Jira
+-> Consome os dados da API Rest do Jira
 
 -> Ira transformar os dados em DataFrames para análise
 
