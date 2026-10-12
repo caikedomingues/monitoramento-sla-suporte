@@ -1,0 +1,12 @@
+Falha na conexão, código retornado: 400
+Motivo: {"errorMessages":["Unbounded JQL queries are not allowed here. Please add a search restriction to your query."],"errors":{}}
+Data e hora da Requisição: 09_10_2026_14_13
+------------------------------------------------
+Falha na conexão, código retornado: 400
+Motivo: {"errorMessages":["Unbounded JQL queries are not allowed here. Please add a search restriction to your query."],"errors":{}}
+Data e hora da Requisição: 09_10_2026_14_14
+------------------------------------------------
+Falha na conexão, código retornado: 400
+Motivo: {"errorMessages":["No content to map to Object due to end of input"]}
+Data e hora da Requisição: 09_10_2026_14_16
+------------------------------------------------
