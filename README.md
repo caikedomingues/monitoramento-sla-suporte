@@ -30,7 +30,7 @@ análise
 
 -> Classifica entre "SLA Cumprido", "SLA em Risco" e "SLA Estourado"
 
-
+# Bibliotecas Utilizadas:
 
 # O que o PowerBI faz: 
 
