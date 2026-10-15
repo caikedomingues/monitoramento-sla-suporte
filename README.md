@@ -13,6 +13,16 @@ Automação que coleta os chamados e analisa a eficiência do atendimento ao cli
 
 -> Link para a documentação da API: https://developer.atlassian.com/cloud/jira/platform/rest/v3/intro/#expansion
 
+# Itens necessários para a conexão com a API Rest do Jira
+
+token: Token ira identificar o projeto que será acessado
+
+senha_api: Senha de acesso para autenticação na API
+
+email: Email do usuário registrado no Jira 
+
+jira_url: url utilizada nas requisições a API.
+
 # O que o python faz:
 
 -> Consome os dados da API Rest do Jira
@@ -30,8 +40,19 @@ análise
 
 -> Classifica entre "SLA Cumprido", "SLA em Risco" e "SLA Estourado"
 
-# Bibliotecas Utilizadas:
+# Bibliotecas e Funções Utilizadas:
+os: Ira criar diretórios e acessar variáveis de ambientes 
 
+requests: Irá realizar requisições a API do Jira
+
+HTTPBasicAuth: Ira realizar a autenticação do usuário usando as credenciais disponibilizadas
+pelo Jira
+
+dotenv: Ira carregar as variáveis de ambiente no código
+
+datetime: Ira coletar a data e a hora do sistema
+
+pandas: Ira tratar e análisar os dados
 # O que o PowerBI faz: 
 
 ->  Calcula a taxa de resolução no primeiro contato (FCR)
