@@ -1,5 +1,6 @@
 # monitoramento-sla-suporte
-Automação que coleta os chamados e analisa a eficiência do atendimento ao cliente utilizando python, jira e powerbi.
+Automação que coleta os chamados e analisa a eficiência do atendimento ao cliente utilizando python, jira e powerbi. O script ira tratar os dados e
+classifica-los de acordo com a sua prioridade e complexidade
 
 # Ferramentas utilizadas: 
 
