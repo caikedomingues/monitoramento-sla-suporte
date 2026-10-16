@@ -2,6 +2,24 @@
 Automação que coleta os chamados e analisa a eficiência do atendimento ao cliente utilizando python, jira e powerbi. O script ira tratar os dados e
 classifica-los de acordo com a sua prioridade e complexidade
 
+# Classificações das prioridades:
+
+-> High(Alta): Exige solução rápida (até 24 horas)
+
+-> Medium (Média): Prazo intermediário (até 72 horas)
+
+-> Low(Baixa): Prazo maior (até 120 horas)
+
+# Classificações do SLA:
+
+-> SLA Cumprido: SLA cumprido dentro do prazo estabelecido (resolvido dentro das horas estabelecidas)
+
+-> SLA em Risco: SLA próximo de estourar o prazo estabelecido (faltando 1 hora para ultrapassar o prazo estabelecido)
+
+-> SLA Estourado: SLA estourado fora do prazo estabelecido (ultrapassou a quantidade de horas necessárias).
+
+-> Em Andamento: O chamado ainda não foi resolvido.
+
 # Ferramentas utilizadas: 
 
 -> Python 3.12.10: Ira criar o script de automação que irá acessar a API, coletar os dados, tratar os dados e gerar planilhas para análise no powerbi.
