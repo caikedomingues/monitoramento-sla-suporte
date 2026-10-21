@@ -1,4 +1,0 @@
-Falha na conexão, código retornado: 400
-Motivo: {"errorMessages":["Invalid request payload. Refer to the REST API documentation and try again."]}
-Data e hora da Requisição: 12_10_2026_16_09
-------------------------------------------------
