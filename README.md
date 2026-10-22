@@ -95,3 +95,4 @@ não será necessário remove-los da base de dados
 -> Mapa de calor de volume de chamados por horário do dia.
 
 -> Mostra a frequência de cada tipo de chamado.
+
