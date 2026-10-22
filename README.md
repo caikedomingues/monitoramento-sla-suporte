@@ -52,12 +52,13 @@ jira_url: url utilizada nas requisições a API.
 
 -> Ira gerar um log de erros caso ocorra algum erro na execução
 
+-> Irá Classificar as tarefas entre "SLA Cumprido", "SLA em Risco" e "SLA Estourado" com base em seus status, prioridade e tempo de execução.
+
 -> Ira criar uma pasta que contera as planilhas de informações de cada
 análise
 
 -> Ira gerar as planilhas que irão alimentar o PowerBI
 
--> Classifica entre "SLA Cumprido", "SLA em Risco" e "SLA Estourado"
 
 # Bibliotecas e Funções Utilizadas:
 os: Ira criar diretórios e acessar variáveis de ambientes 
@@ -72,6 +73,17 @@ dotenv: Ira carregar as variáveis de ambiente no código
 datetime: Ira coletar a data e a hora do sistema
 
 pandas: Ira tratar e análisar os dados
+
+# Tratamentos Realizados:
+-> Registramos em logs todos os erros relacionados a conexões com API
+
+-> Substituimos todos os valores nulos por valores padrões. Dessa forma,
+não será necessário remove-los da base de dados
+
+-> Convertamos as colunas de data e hora para o formato datetime
+
+-> Criamos a coluna que conterá as classificações de cada tarefa.
+
 # O que o PowerBI faz: 
 
 ->  Calcula a taxa de resolução no primeiro contato (FCR)
