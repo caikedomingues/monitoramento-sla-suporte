@@ -86,13 +86,11 @@ não será necessário remove-los da base de dados
 
 # O que o PowerBI faz: 
 
-->  Calcula a taxa de resolução no primeiro contato (FCR)
-
 -> Mostra os chamados pendentes por analista
 
 -> Tempo Médio de Espera
 
--> Mapa de calor de volume de chamados por horário do dia.
+-> Calculo de volume de chamados por horário do dia.
 
 -> Mostra a frequência de cada tipo de chamado.
 
