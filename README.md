@@ -94,3 +94,4 @@ não será necessário remove-los da base de dados
 
 -> Mostra a frequência de cada tipo de chamado.
 
+-> Paginas do relátorio: Informações Gerais, Frequência de Chamados, Volume de Chamados por Horário
