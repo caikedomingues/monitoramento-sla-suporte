@@ -88,9 +88,9 @@ não será necessário remove-los da base de dados
 
 -> Mostra os chamados pendentes por analista
 
--> Tempo Médio de Espera
+-> Mostra o Tempo Médio de Espera
 
--> Calculo de volume de chamados por horário do dia.
+-> Calcula o volume de chamados por horário do dia.
 
 -> Mostra a frequência de cada tipo de chamado.
 
